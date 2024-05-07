@@ -23,7 +23,7 @@ const RigthContainer = styled.div`
     height: 100%;
     width: 100%;
     @media (max-width: 768px) {
-        flex: 0;
+        display:none;
     }
 `
 
@@ -36,6 +36,9 @@ const LeftContainer = styled.div`
     min-height: 100vh;
     width: 100%;
     gap: 20px;
+    @media (max-width: 768px) {
+        flex: 1;
+    }
 `
 
 const TopContainer = styled.div`
